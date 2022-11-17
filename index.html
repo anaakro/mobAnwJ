@@ -24,7 +24,7 @@
   </head>
   <body>
 
-  <h1>0000</h1>
+  <h1>Audio/Camera</h1>
   <div class="columns">
     <div class="column">
       <p><button type="button" onclick="getStream('video')">Grab video</button></p>
@@ -37,8 +37,13 @@
       <audio controls></audio>
     </div>
   </div>
-  <h1>0000</h1>
+  <h1>---</h1>
 
+  <h1>Location</h1>
+  <button id="askButton">Ask for location</button>
+
+  <div id="target"></div>
+  <script src="js/geoLocation.js"></script>
   <script src="js/getVidAud.js"></script>
   </body>
 </html>
