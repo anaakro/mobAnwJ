@@ -1,3 +1,4 @@
+/*
 if ('localStorage' in window || 'sessionStorage' in window) {
     var selectedEngine;
 
@@ -43,3 +44,5 @@ if ('localStorage' in window || 'sessionStorage' in window) {
     }
 
     window.addEventListener('storage', onStorageChanged);}
+
+ */
