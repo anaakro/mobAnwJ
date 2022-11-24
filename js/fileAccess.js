@@ -90,8 +90,8 @@ if ('localStorage' in window || 'sessionStorage' in window) {
     selectEngine('localStorage');
 
     valueInput.addEventListener('keyup', function () {
-        //window[selectedEngine].setItem('myKey', this.value);
-        window[selectedEngine].setItem('myKey', file_to_store);
+        window[selectedEngine].setItem('myKey', this.value);
+        //window[selectedEngine].setItem('myKey', file_to_store);
     });
 
    function submitFile() {
