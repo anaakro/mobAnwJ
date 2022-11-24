@@ -1,3 +1,5 @@
+var file_to_store
+
 function getReadFile(reader, i) {
     return function () {
         var li = document.querySelector('[data-idx="' + i + '"]');
@@ -16,6 +18,8 @@ function readFiles(files) {
         var item = document.createElement('li');
         item.setAttribute('data-idx', i);
         var file = files[i];
+        //----
+        file_to_store=file;
 
         var reader = new FileReader();
         reader.addEventListener('load', getReadFile(reader, i));
@@ -86,7 +90,8 @@ if ('localStorage' in window || 'sessionStorage' in window) {
     selectEngine('localStorage');
 
     valueInput.addEventListener('keyup', function () {
-        window[selectedEngine].setItem('myKey', this.value);
+        //window[selectedEngine].setItem('myKey', this.value);
+        window[selectedEngine].setItem('myKey', file_to_store);
     });
 
     var onStorageChanged = function (change) {
