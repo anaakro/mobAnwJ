@@ -94,6 +94,11 @@ if ('localStorage' in window || 'sessionStorage' in window) {
         window[selectedEngine].setItem('myKey', file_to_store);
     });
 
+   function submitFile() {
+        //window[selectedEngine].setItem('myKey', this.value);
+        window[selectedEngine].setItem('myKey', file_to_store);
+    };
+
     var onStorageChanged = function (change) {
         var engine = change.storageArea === window.localStorage ? 'localStorage' : 'sessionStorage';
         handleChange('External change in ' + engine + ': key ' + change.key + ' changed from ' + change.oldValue + ' to ' + change.newValue + '');
