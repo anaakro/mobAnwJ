@@ -110,6 +110,15 @@
 
   <pre id="log"></pre>
 
+  <h1>local Notifications</h1>
+
+  <p>Current permission status is <b id="status">unavailable</b>.</p>
+
+  <p><button onclick="requestPermission()">Request permission</button></p>
+  <p><button onclick="nonPersistentNotification()">Non-persistent notification</button></p>
+  <p><button onclick="persistentNotification()">Persistent notification</button></p>
+
+
   <div id="target"></div>
   <script src="js/geoLocation.js"></script>
   <script src="js/getVidAud.js"></script>
@@ -118,6 +127,9 @@
   <script src="js/offlineStorage.js"></script>
   <script src="js/fileAccess.js"></script>
   <script src="js/contactList.js"></script>
+  <script src="js/localNotifications.js"></script>
+
+
 
 
 
