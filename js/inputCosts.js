@@ -27,7 +27,7 @@ function test(){
 
 
     for (let i =0; i< list4.length; i++) {
-       tempVar += list4[i]
+       tempVar += parseFloat(list4[i])
 
     }
 
