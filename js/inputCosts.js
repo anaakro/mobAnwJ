@@ -24,7 +24,7 @@ function test(){
     list3.push(in3)
 
 
-    for (let i =0; i< list4.length(); i++) {
+    for (let i =0; i< list4.length; i++) {
        tempVar += list4[i]
 
     }
