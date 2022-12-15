@@ -15,6 +15,7 @@ let fest = 100.0
 list4.push(fest)
 let tempVar = 0;
 function test(){
+    tempVar = 0;
     var in1 = document.getElementById("description").value;
     var in2 = document.getElementById("date").value;
     var in3 = document.getElementById("category").value;
