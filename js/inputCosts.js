@@ -19,10 +19,10 @@ function test(){
     var in5 = document.getElementById("balance").value;
     console.log(in1)
     list1.push(in1)
-    list1.push(in2)
-    list1.push(in3)
-    list1.push(in4)
-    list1.push(in5)
+    list2.push(in2)
+    list3.push(in3)
+    list4.push(in4)
+    list5.push(in5)
     //console.log(inputForm)
     console.log("hallo")
 
