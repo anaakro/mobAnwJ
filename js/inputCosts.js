@@ -45,6 +45,14 @@ function test(){
     localStorage.setItem('amount', list4);
     localStorage.setItem('balance', list5);
 
+
+
+    document.getElementById("11").innerHTML=list1
+    document.getElementById("12").innerHTML=list2
+    document.getElementById("13").innerHTML=list3
+    document.getElementById("14").innerHTML=list4
+    document.getElementById("15").innerHTML=list5
+
 }
 
 
