@@ -11,8 +11,8 @@ var list3 = [];
 var list4 = [];
 var list5 = [];
 
-let fest = 100.0
-list5.push(fest)
+//let fest = 100.0
+//list5.push(fest)
 let tempVar = 0;
 function test(){
     tempVar = 0;
