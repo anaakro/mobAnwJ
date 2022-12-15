@@ -13,7 +13,7 @@ var list5 = [];
 
 let fest = 100.0
 list4.push(fest)
-let tempVar;
+let tempVar = 0;
 function test(){
     var in1 = document.getElementById("description").value;
     var in2 = document.getElementById("date").value;
@@ -28,7 +28,8 @@ function test(){
 
     for (let i =0; i< list4.length; i++) {
         list4[i]=parseFloat(list4[i])
-       tempVar = tempVar + parseFloat(list4[i])
+        tempVar = tempVar + parseFloat(list4[i])
+        console.log(tempVar)
 
     }
 
