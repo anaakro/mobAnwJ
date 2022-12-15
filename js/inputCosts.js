@@ -10,8 +10,10 @@ var list2 = [];
 var list3 = [];
 var list4 = [];
 var list5 = [];
-list4.push(100)
-tempVar = 0;
+
+var fest = 100.0
+list4.push(fest)
+tempVar = 0.0;
 function test(){
     var in1 = document.getElementById("description").value;
     var in2 = document.getElementById("date").value;
