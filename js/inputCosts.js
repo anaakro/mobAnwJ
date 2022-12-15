@@ -1,5 +1,5 @@
 
-
+console.log("test")
 
 var table = document.getElementById("myTable");
 
