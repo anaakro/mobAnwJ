@@ -29,8 +29,8 @@ function test(){
 
     }
 
-    list4.push(tempVar)
-    list5.push(in5)
+    list4.push(in4)
+    list5.push(tempVar)
     //console.log(inputForm)
     console.log("hallo")
 
