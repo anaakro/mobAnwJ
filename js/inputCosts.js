@@ -14,7 +14,7 @@ function test(){
     var in4 = document.getElementById("amount").value;
     var in5 = document.getElementById("balance").value;
     console.log(in1)
-    list1.add(in1)
+    list1.push(in1)
     //console.log(inputForm)
     console.log("hallo")
 
@@ -24,5 +24,3 @@ function test(){
 
 
 
-
-localStorage.setItem('description', 'Tom');
