@@ -10,7 +10,8 @@ var list2 = [];
 var list3 = [];
 var list4 = [];
 var list5 = [];
-
+list4.push(100)
+tempVar = 0;
 function test(){
     var in1 = document.getElementById("description").value;
     var in2 = document.getElementById("date").value;
@@ -21,7 +22,14 @@ function test(){
     list1.push(in1)
     list2.push(in2)
     list3.push(in3)
-    list4.push(in4)
+
+
+    for (let i =0; i< list4.length(); i++) {
+       tempVar += list4[i]
+
+    }
+
+    list4.push(tempVar)
     list5.push(in5)
     //console.log(inputForm)
     console.log("hallo")
