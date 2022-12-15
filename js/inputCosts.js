@@ -13,7 +13,10 @@ function test(){
     var in4 = document.getElementById("amount").value;
     var in5 = document.getElementById("balance").value;
     console.log(in1)
-    console.log(inputForm)
+    //console.log(inputForm)
     console.log("hallo")
 
 }
+
+
+localStorage.setItem('myCat', 'Tom');
