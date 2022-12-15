@@ -11,7 +11,7 @@ var list3 = [];
 var list4 = [];
 var list5 = [];
 
-var fest = 100.0
+let fest = 100.0
 list4.push(fest)
 tempVar = 0.0;
 function test(){
@@ -27,7 +27,7 @@ function test(){
 
 
     for (let i =0; i< list4.length; i++) {
-       tempVar += parseFloat(list4[i])
+       tempVar = tempVar + parseFloat(list4[i])
 
     }
 
