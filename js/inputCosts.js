@@ -8,5 +8,6 @@ function test(){
     var inputForm = document.getElementById("form1")
     console.log(testValue)
     console.log(inputForm)
+    console.log("hallo")
 
 }
