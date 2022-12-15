@@ -5,6 +5,7 @@ var table = document.getElementById("myTable");
 
 
 var JsonData = {};
+var list1 = [];
 
 function test(){
     var in1 = document.getElementById("description").value;
@@ -13,10 +14,15 @@ function test(){
     var in4 = document.getElementById("amount").value;
     var in5 = document.getElementById("balance").value;
     console.log(in1)
+    list1.add(in1)
     //console.log(inputForm)
     console.log("hallo")
+
+    localStorage.setItem('description', list1);
 
 }
 
 
-localStorage.setItem('myCat', 'Tom');
+
+
+localStorage.setItem('description', 'Tom');
