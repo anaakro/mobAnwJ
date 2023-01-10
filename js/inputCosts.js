@@ -20,7 +20,6 @@ function test(){
     var in2 = document.getElementById("date").value;
     var in3 = document.getElementById("category").value;
     var in4 = document.getElementById("amount").value;
-    var in5 = document.getElementById("balance").value;
     console.log(in1)
     list1.push(in1)
     list2.push(in2)
