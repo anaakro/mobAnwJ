@@ -26,7 +26,7 @@ function test(){
     list3.push(in3)
 
 
-    for (let i =0; i< list4.length; i++) {
+    for (let i =0; i< list4.length +1; i++) {
         list4[i]=parseFloat(list4[i])
         tempVar = tempVar + parseFloat(list4[i])
         console.log(tempVar)
