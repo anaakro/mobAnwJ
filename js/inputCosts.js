@@ -24,16 +24,16 @@ function test(){
     list1.push(in1)
     list2.push(in2)
     list3.push(in3)
+    list4.push(in4)
 
 
-    for (let i =0; i< list4.length +1; i++) {
+    for (let i =0; i< list4.length; i++) {
         list4[i]=parseFloat(list4[i])
         tempVar = tempVar + parseFloat(list4[i])
         console.log(tempVar)
 
     }
 
-    list4.push(in4)
     list5.push(tempVar)
     //console.log(inputForm)
     console.log("hallo")
