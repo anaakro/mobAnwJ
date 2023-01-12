@@ -37,12 +37,13 @@ function test(){
     list5.push(tempVar)
     //console.log(inputForm)
     console.log("hallo")
-
-    localStorage.setItem('description', list1);
-    localStorage.setItem('date', list2);
-    localStorage.setItem('category', list3);
-    localStorage.setItem('amount', list4);
-    localStorage.setItem('balance', list5);
+    
+    
+    window.localStorage.setItem('description', list1);
+    window.localStorage.setItem('date', list2);
+    window.localStorage.setItem('category', list3);
+    window.localStorage.setItem('amount', list4);
+    window.localStorage.setItem('balance', list5);
 
 
 
